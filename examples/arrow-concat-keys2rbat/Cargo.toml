@@ -1,0 +1,34 @@
+[package]
+name = "arrow-concat-keys2rbat"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.rs-arrow-concat-keys2rbat]
+path = "../.."
+
+[dependencies.uuid]
+version = "1"
+default-features = false
+features = [
+]
+
+[dependencies.rs-ints2arrow]
+version = "0"
+default-features = false
+features = [
+	"fs",
+	"sync",
+]
+
+[dependencies.clap]
+version = "4"
+default-features = false
+features = [
+	"color",
+	"error-context",
+	"help",
+	"std",
+	"suggestions",
+	"usage",
+	"derive",
+]
