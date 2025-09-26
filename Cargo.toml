@@ -1,0 +1,18 @@
+[package]
+name = "rs-arrow-concat-keys2rbat"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.arrow]
+version = "56"
+default-features = false
+features = [
+]
+
+[features]
+default = [
+	"sync",
+]
+
+sync = [
+]
